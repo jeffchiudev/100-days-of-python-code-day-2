@@ -1,7 +1,13 @@
 # 🚨 Don't change the code below 👇
-two_digit_number = input("Type a two digit number: ")
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
-####################################
 #Write your code below this line 👇
-print(int(two_digit_number[0]) + int(two_digit_number[1])) 
+
+# int_height = float(height)
+# int_weight = int(weight)
+
+# print(int_weight / (int_height ** 2))
+
+print(int(weight) / (float(height) ** 2))
