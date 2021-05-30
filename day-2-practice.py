@@ -1,13 +1,19 @@
 # 🚨 Don't change the code below 👇
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+age = input("What is your current age?")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+years = 90 - int(age)
+days = years * 365
+weeks = years * 52
+months = years * 12
 
-# int_height = float(height)
-# int_weight = int(weight)
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
 
-# print(int_weight / (int_height ** 2))
 
-print(int(weight) / (float(height) ** 2))
+
+
+
+
+
+
